@@ -1,3 +1,5 @@
+import StoryCard from "./StoryCard";
+
 const stories = [
   {
     name: "Elon Musk",
@@ -20,7 +22,6 @@ const stories = [
     profile: "https://links.papareact.com/zvy",
   },
 ];
-import StoryCard from "./StoryCard";
 
 export default function Stories() {
   return (
